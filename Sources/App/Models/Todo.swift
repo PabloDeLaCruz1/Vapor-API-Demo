@@ -1,7 +1,7 @@
 import Fluent
 import Vapor
 
-//This represents the data in our database an an object for our app
+//This represents the data in our database as an object for our app
 //Conforms to Model and Content since we are using Fluent
 final class Todo: Model, Content {
     //what table/schema, so this Todo class represents the todos table

@@ -16,7 +16,7 @@ struct TodoController: RouteCollection {
             todo.delete(use: delete)
         }
     }
-    // /todo route
+    // /todos route
     func index(req: Request) async throws -> [Todo] {
         //Fluent gets all data doing a request, returns array of Todo items
         try await Todo.query(on: req.db).all()

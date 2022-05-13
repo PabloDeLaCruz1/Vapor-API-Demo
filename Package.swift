@@ -1,4 +1,5 @@
 // swift-tools-version:5.6
+//This file allows our application to be used
 import PackageDescription
 
 let package = Package(
